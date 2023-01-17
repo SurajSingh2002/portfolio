@@ -111,6 +111,21 @@
     border-radius: 20rem;
 }
 
+.social{
+    display: flex;
+    justify-content: center;
+}
+
+.social_link{
+    margin: 2rem;
+    font-size:1.25rem;
+    color:var(--text-color-light);
+  }
+
+.social_link:hover{
+    transform: scale(1.8);
+}  
+
 .contactform{
     padding: 0 34px;
     /* padding-top: 144px; */
